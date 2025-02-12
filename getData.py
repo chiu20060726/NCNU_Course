@@ -88,7 +88,7 @@ def getDepartmentCourses():
             'class': course['StudyClassName'],
             'name': re.search('>.*<', course['SemesterCourseName']).group(0)[1:-1] \
                         if '<a href' in course['SemesterCourseName'] else course['SemesterCourseName'],
-            'department': course['StudyCourseCategoryNames'],
+            'department': course['UnitName'],
             'graduated': course['DayfgClassTypeName'],
             'grade': '0',
             'teacher': course['Teacher'],
