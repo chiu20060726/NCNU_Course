@@ -1,1 +1,11 @@
 .DS_Store
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+#JS
+.js/
+js/
