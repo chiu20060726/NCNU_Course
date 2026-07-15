@@ -6,6 +6,7 @@ __pycache__/
 venv/
 .venv/
 
-#JS
-.js/
-js/
+#General Cource Finder
+general_course_lookup/example_cource_list.txt
+general_course_lookup/example_type.txt
+general_course_lookup/
